@@ -1,8 +1,14 @@
-class Bicycle:
-    def __init__(self, color, style):
-        self.color = color
-        self.style = style
+class plant:
+    species = "plant"
 
-my_bike = Bicycle("red", "road")
-print(my_bike.color)
-print(my_bike.style)
+    def __init__(self, name, Height):
+        self.name = name
+        self.Height = Height
+
+    def grow(inches):
+        Height += inches
+
+    @classmethod
+    def plant_info(cls):
+        print(f"This is a {cls.species}")
+        
